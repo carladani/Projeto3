@@ -1,0 +1,22 @@
+#painel{
+    background-color: #b8d6b0;
+    color: #ff1964;
+    border: 1px;
+    padding: 10px 20px;
+    border-radius: 20px;    
+    margin:15px 15px;
+    height: 260px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+button{
+    font-size: x-large;
+    height:40 px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #259b96;
+    color:#ff1964;
+}

@@ -1,0 +1,14 @@
+#prateleira{
+    background-color:  #ff1964;
+    width: 800px;
+    height: 185px;
+    border-radius:10px;
+    margin-right: 2,5px;
+    margin-left:2,5px;
+    margin: top 5px;
+    margin-bottom:5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}

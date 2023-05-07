@@ -1,0 +1,25 @@
+#avaliacao{
+    min-width: 110px;
+    min-height: 200px;
+    background-color: #ebc4a9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width: 3px; 
+    border-style: solid;
+    border-color:  #ff1964;
+    margin-top: 10px;
+    margin-right:10px;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+#texto{
+	font-size: 1vw;
+    margin-top: 10px;
+    margin-right:10px;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+h1{
+    font-size: 20px;
+}

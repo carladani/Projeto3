@@ -1,0 +1,86 @@
+header{
+   
+    font-size: 14px;
+    background-color: #6fbcaa;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+  
+}
+span{
+   
+    font-size: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: #ff1964;
+
+ 
+}
+#perfil
+{
+    margin-right: 10px;
+    margin-left:10px;
+    justify-content: right;
+   
+}
+
+#lidos{
+    background-color: #b8d6b0;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-left:10px;
+    justify-content: center;
+    border-radius:10px;
+    align-items: center;
+    border-width: 10px; 
+    border-style: solid;
+    border-color:  #ff1964;
+
+}
+h2{
+    vertical-align: middle;
+    text-align: center;
+    color: #259b9b;
+}
+#ler{
+    background-color:yellow;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-left:10px;
+    justify-content: center;
+    border-radius:10px;
+    align-items: center;
+    vertical-align: middle;
+    border-width: 10px; 
+    border-style: solid;
+    border-color:  #ff1964;
+}
+#foto{
+    width: 100px;
+    height: 100px;
+    align-items: left;
+    border-radius:50%;
+    margin-left:10px;
+    margin-right: 10px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    border-width: 10px; 
+    border-style: solid;
+    border-color:  #ff1964;
+}

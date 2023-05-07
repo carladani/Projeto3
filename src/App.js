@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router, Route,Routes } from 'react-router-dom'
+import Home from './pages/Home';
+import Resenha from './pages/Resenha';
+import ContagemContext from './Context/ContagemContext';
+import LidoContext from './Context/LidoContext';
+import React, { useState } from 'react';
 
 function App() {
+  const [contagem, setContagem] = useState(3);
+  const [lido, setLido] = useState(5);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ContagemContext.Provider value={{contagem, setContagem}}> 
+      <LidoContext.Provider value={{lido, setLido}}>     
+        <Router>
+         <Routes>
+          <Route path='/' element={<Home contagem={contagem} lido={lido}/>} />
+          <Route path='/resenha' element={<Resenha contagem={contagem} lido={lido}/>} />
+        </Routes>
+      </Router>
+      </LidoContext.Provider>
+      </ContagemContext.Provider>
     </div>
   );
 }
